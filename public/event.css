@@ -1,0 +1,31 @@
+ 	.navbar {
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            position: fixed;
+            bottom: 30px; /* Margin from the bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40%; /* Not full width */
+            background-color: white; /* Background color */
+            border-radius: 15px; /* Rounded borders */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+            padding: 10px 0; /* Padding for the footer */
+            display: flex; /* Use flexbox */
+            justify-content: space-around; /* Space icons evenly */
+            align-items: center; /* Center icons vertically */
+        }
+        .footer a {
+            color: #007bff; /* Icon color */
+            text-decoration: none; /* Remove underline */
+            transition: color 0.3s, transform 0.3s; /* Smooth transition */
+        }
+        .footer a:hover {
+            color: green; /* Change color on hover */
+            transform: scale(1.2); /* Slightly enlarge on hover */
+        }
+        .footer i {
+            font-size: 30px; /* Icon size */
+        }
+	
